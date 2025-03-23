@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Detail - Online Shopping</title>
+    <link rel="stylesheet" href="css/styles.css"> <!-- Link to your external CSS file -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            background: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+        }
+        .product-detail {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        .product-image {
+            flex: 1;
+            margin-right: 20px;
+        }
+        .product-image img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+        .product-info {
+            flex: 2;
+        }
+        .product-info h1 {
+            margin: 0;
+        }
+        .product-info p {
+            color: #555;
+        }
+        .price {
+            font-size: 1.5em;
+            color: #333;
+            margin: 10px 0;
+        }
+        .add-to-cart {
+            background: #28a745;
+            color: #fff;
+            border: none;
+            padding: 10px 15px;
+            cursor: pointer;
+            border-radius: 5px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 1em;
+        }
+        .add-to-cart:hover {
+            background: #218838;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Product Detail</h1>
+</header>
+
+<div class="container">
+    <div class="product-detail">
+        <div class="product-image">
+            <img src="https://myshop.pk/pub/media/catalog/product/cache/badc1d10053babad93ba2ef2941284a4/_/i/_iphone16_pro-max_-myshop-pk-5_1_3.jpg" alt="Smartphone">
+        </div>
+        <div class="product-info">
+            <h1>iPhone 16 Pro Max</h1>
+            <p>Latest model with high performance, featuring a stunning display and powerful camera.</p>
+            <p class="price">Rs 443,500</p>
+            <p><strong>Features:</strong></p>
+            <ul>
+                <li>6.5-inch display</li>
+                <li>256GB Storage</li>
+                <li>Physical + eSIM</li>
+                <li>Box Pack</li>
+                <li>Non-Active</li>
+                <h2>Specifications</h2>
+<div class="specs">
+    <ul>
+        <li>Display: 6.9-inch Super Retina XDR</li>
+        <li>Camera: Pro camera system with 48MP Ultra Wide</li>
+        <li>Chip: A18 Pro chip</li>
+        <li>Battery: Up to 33 hours of video playback</li>
+        <li>Colors: Desert Titanium, Natural Titanium</li>
+    </ul>
+</div>
+
+            </ul>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
